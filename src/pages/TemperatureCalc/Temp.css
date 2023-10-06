@@ -1,0 +1,49 @@
+.temperature-container{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.heading{
+    color: #33ffd8;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.temp-container{
+  width: 100%;
+  font-weight: bold;
+  padding: 15px;
+  color: #33ffd8;
+  font-size: 18px;
+}
+input{
+    width: 220px;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    float: right;
+    outline: none;
+    border-radius: 6px;
+    background: #e3f9ff;
+    font-size: 14px;
+    color: black;
+}
+input::placeholder{
+    opacity: 0.5;
+    color: darkgray;
+}
+.clear-btn{
+    padding: 7px 5px;
+    border: 6px;
+    background-color: #3a4452;
+    box-shadow:  -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}

@@ -1,0 +1,28 @@
+.home{
+    background: #3a4452;
+}
+.welcome h1 span{
+    color: #3bc59a;
+}
+.welcome h1{
+    margin-top: -4rem;
+    font-size: 52px;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: 'kaushan script', cursive;
+}
+.welcome > p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+.try{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 4rem;
+    font-style: italic;
+    text-align: center;
+}
+.list li{
+    color: #3bc59a;
+}
